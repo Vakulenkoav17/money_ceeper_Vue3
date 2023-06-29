@@ -22,7 +22,7 @@
     },
     actions: {
       async fetchCurrency(){
-        const apiKey = 'JviWO4zynCIIVODi855PaBVrQ92S6T1WVZcVsFYo'
+        const apiKey = '' //Your apiKey from https://api.currencyapi.com
         const res = await fetch(`https://api.currencyapi.com/v3/latest?apikey=${apiKey}&base_currency=RUB&currencies=USD,EUR,GEL,RUB`)
         const currencies = await res.json()
         return currencies.data

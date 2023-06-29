@@ -12,16 +12,10 @@ import toastPlugin from "./utils/toastPlugin";
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
-const firebaseApp = initializeApp({
-  apiKey: "AIzaSyCbYCbi7HmeUT59uNaXl8c-LZSpaVbCi_4",
-  authDomain: "vue-money-manager.firebaseapp.com",
-  databaseURL: "https://vue-money-manager-default-rtdb.firebaseio.com",
-  projectId: "vue-money-manager",
-  storageBucket: "vue-money-manager.appspot.com",
-  messagingSenderId: "775214734290",
-  appId: "1:775214734290:web:82aedcea8d6c422106460b",
-  measurementId: "G-K6K2VWGKZ5",
-});
+
+const firebaseApp = initializeApp(
+//Your config from https://firebase.google.com/
+);
 
 const auth = getAuth(firebaseApp);
 let app;

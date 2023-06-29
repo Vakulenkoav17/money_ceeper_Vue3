@@ -56,12 +56,7 @@ const routes = [
     name: "record",
     meta: { layout: "main" },
     component: () => import("@/views/Record.vue"),
-  },{
-    path: "/sas",
-    name: "sas",
-    meta: { layout: "empty" },
-    component: () => import("@/views/sas.vue"),
-  },
+  }
   
 ];
 
