@@ -10,7 +10,11 @@ npm install
 npm run serve
 ```
 Screenshots:
-![solarized palette](https://github.com/altercation/solarized/raw/master/img/solarized-palette.png)
+
+![Main](https://github.com/Vakulenkoav17/money_ceeper_Vue3/blob/main/Screenshots/1.PNG)
+![planning](https://github.com/Vakulenkoav17/money_ceeper_Vue3/blob/main/Screenshots/2.PNG)
+![History](https://github.com/Vakulenkoav17/money_ceeper_Vue3/blob/main/Screenshots/3.PNG)
+
 
 ------------------------------------------------------------
 Before start to serve you should put api keys in files 
