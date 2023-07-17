@@ -10,7 +10,7 @@ npm install
 npm run serve
 ```
 Screenshots:
-![solarized palette](https://github.com/altercation/solarized/raw/master/img/solarized-palette.png)
+[solarized palette](https://github.com/altercation/solarized/raw/master/img/solarized-palette.png)
 
 ------------------------------------------------------------
 Before start to serve you should put api keys in files 
