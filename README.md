@@ -9,6 +9,9 @@ npm install
 ```
 npm run serve
 ```
+Screenshots:
+![solarized palette](https://github.com/altercation/solarized/raw/master/img/solarized-palette.png)
+
 ------------------------------------------------------------
 Before start to serve you should put api keys in files 
 *main.js(config of your base from https://firebase.google.com/)
